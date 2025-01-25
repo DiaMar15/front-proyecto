@@ -1,0 +1,40 @@
+body {
+    background-image: url('img/2932431_415724-PE4OZ6-221.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+  }
+  
+
+  .container {
+    position: relative;
+    z-index: 1;
+    background: rgb(255, 119, 7);
+    padding: 30px;
+    border-radius: 8px;
+    margin-top: 50px;
+  }
+
+  #loginMessage {
+    font-weight: bold;
+  }
+
+  .product-card {
+    position: relative;
+  }
+
+      .product-card {
+        margin-bottom: 20px;
+      }
+      .btn-eliminar {
+        background-color: red;
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        cursor: pointer;
+      }
+      .btn-eliminar:hover {
+        background-color: darkred;
+      }
